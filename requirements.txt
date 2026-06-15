@@ -1,0 +1,24 @@
+# Python: 3.10 lub nowszy
+# Uwaga: w środowisku GPU wersje torch/torchvision należy dobrać do zainstalowanej wersji CUDA.
+
+# Główne biblioteki uczenia głębokiego
+torch>=2.2.0
+torchvision>=0.17.0
+lightning>=2.2.0
+torchmetrics>=1.3.0
+
+# Dane, metryki i raportowanie
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+Pillow>=10.0.0
+
+# Wizualizacja wyników
+matplotlib>=3.7.0
+
+# Uruchamianie notebooków Jupyter
+jupyterlab>=4.0.0
+ipykernel>=6.0.0
+
+# Opcjonalnie: pobieranie zbioru danych z Kaggle CLI
+kaggle>=1.6.0
